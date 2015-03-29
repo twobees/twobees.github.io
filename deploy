@@ -1,9 +1,4 @@
-DATE=`/bin/date`;
-
-#[ -d ./twobees.github.io ] && echo "deleting old ./twobees.github.io" && /bin/rm -rf ./twobees.github.io;
-#git clone  https://twobees@github.com/twobees/twobees.github.io.git;
-#( rm -rf ./build/.git; cp -r ./twobees.github.io/.git ./build;cd ./build;git add -A .;git commit -m "Build $DATE";git push );
-
-# for re-deployment
-( git add -A .;git commit -m "Build $DATE";git push );
-
+git pull
+git add -A .
+git commit -m updated
+git push

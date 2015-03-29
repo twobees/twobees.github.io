@@ -8,14 +8,14 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : TwoBees
-tagline: Two Bees To Connect Communities
+title : TwoBees connects communities
+tagline: 2 bees are needed to connect communities
 author :
-  name : TwoBees Admin
+  name : Two Bees Admin
   email : admin@2bees.com
   github : twobees
   twitter : 2bees8
-  feedburner : 2bees
+  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : twobees
     livefyre :
       site_id : 123
     intensedebate :
